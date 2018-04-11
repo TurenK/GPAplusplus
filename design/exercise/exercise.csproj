@@ -288,6 +288,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\EasyMainMenu\Scripts\Main Menu Scripts\MainMenuController.cs" />
     <Compile Include="Assets\Script\AbleBuilding.cs" />
     <Compile Include="Assets\Script\Barracks.cs" />
     <Compile Include="Assets\Script\Base.cs" />
