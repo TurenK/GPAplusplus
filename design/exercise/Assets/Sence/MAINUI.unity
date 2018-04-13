@@ -958,7 +958,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: empty
+  m_Text: "\u5730\u56FE\u56DB"
 --- !u!222 &146547559
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3687,7 +3687,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Empty
+  m_Text: "\u5730\u56FE\u516D"
 --- !u!222 &680447794
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4158,7 +4158,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: empty
+  m_Text: "\u5730\u4F53\u4E94"
 --- !u!222 &713660776
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5538,6 +5538,7 @@ GameObject:
   - component: {fileID: 1029296017}
   - component: {fileID: 1029296016}
   - component: {fileID: 1029296015}
+  - component: {fileID: 1029296019}
   m_Layer: 5
   m_Name: New
   m_TagString: Untagged
@@ -5633,15 +5634,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1375287390}
-        m_MethodName: newGame
-        m_Mode: 1
+      - m_Target: {fileID: 1029296019}
+        m_MethodName: SendMessage
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: OnMouseUp
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -5679,6 +5680,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1029296013}
+--- !u!114 &1029296019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1029296013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8853f89a3d3081b4fbdf69d3b6ac1b97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1049080724
 GameObject:
   m_ObjectHideFlags: 0
@@ -8590,7 +8602,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -22, y: -177}
+  m_AnchoredPosition: {x: -217, y: -99.3}
   m_SizeDelta: {x: 247.5, y: 45}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1577301925
@@ -9077,7 +9089,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: empty
+  m_Text: "\u5730\u56FE\u4E09"
 --- !u!222 &1617857603
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9507,7 +9519,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: empty
+  m_Text: "\u5730\u56FE\u4E00"
 --- !u!222 &1703002974
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11322,7 +11334,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: empty
+  m_Text: "\u5730\u56FE\u4E8C"
 --- !u!222 &1937794632
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11918,7 +11930,7 @@ Camera:
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
   m_TargetEye: 3
-  m_HDR: 0
+  m_HDR: 1
   m_AllowMSAA: 0
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
@@ -12049,7 +12061,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -68.600006, y: -139.7}
+  m_AnchoredPosition: {x: -69, y: -137}
   m_SizeDelta: {x: 430, y: 35}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2105076390
