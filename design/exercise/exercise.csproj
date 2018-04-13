@@ -259,6 +259,7 @@
     <Compile Include="Assets\Script\friendlyforcesMove.cs" />
     <Compile Include="Assets\Script\HPSlider.cs" />
     <Compile Include="Assets\Script\ScreenDraw.cs" />
+    <Compile Include="Assets\startmoive.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
