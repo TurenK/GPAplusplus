@@ -11972,7 +11972,7 @@ AudioListener:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2083876769}
-  m_Enabled: 0
+  m_Enabled: 1
 --- !u!124 &2083876771
 Behaviour:
   m_ObjectHideFlags: 0
@@ -12047,7 +12047,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 7c07a863d0e9cec40ab70792225b497f, type: 3}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
