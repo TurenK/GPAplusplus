@@ -244,6 +244,7 @@
     <Compile Include="Assets\EasyMainMenu\Scripts\Main Menu Scripts\btn_load.cs" />
     <Compile Include="Assets\EasyMainMenu\Scripts\Main Menu Scripts\MainMenuController.cs" />
     <Compile Include="Assets\MainBKFullScrean.cs" />
+    <Compile Include="Assets\MainModeFullScream.cs" />
     <Compile Include="Assets\myprocessbar.cs" />
     <Compile Include="Assets\Script\AbleBuilding.cs" />
     <Compile Include="Assets\Script\Barracks.cs" />
