@@ -243,11 +243,9 @@
   <ItemGroup>
     <Compile Include="Assets\EasyMainMenu\Scripts\Main Menu Scripts\btn_load.cs" />
     <Compile Include="Assets\EasyMainMenu\Scripts\Main Menu Scripts\MainMenuController.cs" />
-<<<<<<< HEAD
-    <Compile Include="Assets\myprocessbar.cs" />
-=======
     <Compile Include="Assets\MainBKFullScrean.cs" />
->>>>>>> 5cba3faf5e802eb94801cb9b97f0a8580041a723
+    <Compile Include="Assets\MainModeFullScream.cs" />
+    <Compile Include="Assets\myprocessbar.cs" />
     <Compile Include="Assets\Script\AbleBuilding.cs" />
     <Compile Include="Assets\Script\Barracks.cs" />
     <Compile Include="Assets\Script\Base.cs" />
