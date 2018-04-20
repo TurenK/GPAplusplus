@@ -45,7 +45,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\CameraCradle.cs" />
      <Compile Include="Assets\Scripts\Definitions\PlayerSetupDefinition.cs" />
+     <Compile Include="Assets\Scripts\Rotate.cs" />
      <Compile Include="Assets\Scripts\RtsManager.cs" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
