@@ -305,6 +305,27 @@
     <Compile Include="Assets\Detonator Explosion Framework\System\DetonatorSpray.cs" />
     <Compile Include="Assets\Detonator Explosion Framework\TestScene\DetonatorTest.cs" />
     <Compile Include="Assets\Detonator Explosion Framework\TestScene\TouchToMouse.cs" />
+    <Compile Include="Assets\EasyMainMenu\Scripts\Main Menu Scripts\btn_load.cs" />
+    <Compile Include="Assets\EasyMainMenu\Scripts\Main Menu Scripts\MainMenuController.cs" />
+    <Compile Include="Assets\MainBKFullScrean.cs" />
+    <Compile Include="Assets\MainModeFullScream.cs" />
+    <Compile Include="Assets\myprocessbar.cs" />
+    <Compile Include="Assets\Script\AbleBuilding.cs" />
+    <Compile Include="Assets\Script\Barracks.cs" />
+    <Compile Include="Assets\Script\Base.cs" />
+    <Compile Include="Assets\Script\Boundary.cs" />
+    <Compile Include="Assets\Script\Building.cs" />
+    <Compile Include="Assets\Script\Bullet.cs" />
+    <Compile Include="Assets\Script\CameraMove.cs" />
+    <Compile Include="Assets\Script\Destroy.cs" />
+    <Compile Include="Assets\Script\DestroyFog.cs" />
+    <Compile Include="Assets\Script\Emeny.cs" />
+    <Compile Include="Assets\Script\FogOfWar.cs" />
+    <Compile Include="Assets\Script\Friendlyforce.cs" />
+    <Compile Include="Assets\Script\FriendlyforcesBuild.cs" />
+    <Compile Include="Assets\Script\friendlyforcesMove.cs" />
+    <Compile Include="Assets\Script\HPSlider.cs" />
+    <Compile Include="Assets\Script\ScreenDraw.cs" />
     <Compile Include="Assets\Scripts\Actions\ActionBehavior.cs" />
     <Compile Include="Assets\Scripts\Actions\CreateBuildingAction.cs" />
     <Compile Include="Assets\Scripts\Actions\CreateUnitAction.cs" />
@@ -338,9 +359,13 @@
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\Rotate.cs" />
     <Compile Include="Assets\Scripts\RtsManager.cs" />
+    <Compile Include="Assets\startmoive.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Detonator Explosion Framework\Resources\Detonator\Textures\HeatDistort.shader" />
+    <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
     <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />

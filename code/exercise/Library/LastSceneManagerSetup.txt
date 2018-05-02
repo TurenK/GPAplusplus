@@ -1,4 +1,5 @@
 sceneSetups:
-- path: Assets/Sence/StartMovie.unity
+- path: "D:/GitHub/GPAplusplus/code/Unity 3D RTS(\u6700\u7EC8\u6E90\u7801)/Unity 3D
+    RTS/Assets/Scenes/RTS Map.unity"
   isLoaded: 1
   isActive: 1
