@@ -5,11 +5,11 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 423586}
-  - 33: {fileID: 3345332}
-  - 23: {fileID: 2317144}
+  - component: {fileID: 423586}
+  - component: {fileID: 3345332}
+  - component: {fileID: 2317144}
   m_Layer: 0
   m_Name: Model
   m_TagString: Untagged
@@ -22,9 +22,9 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 409478}
+  - component: {fileID: 409478}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -37,13 +37,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 435678}
-  - 114: {fileID: 11472408}
-  - 65: {fileID: 6531980}
-  - 114: {fileID: 11401018}
-  - 208: {fileID: 20883664}
+  - component: {fileID: 435678}
+  - component: {fileID: 11472408}
+  - component: {fileID: 6531980}
+  - component: {fileID: 11401018}
+  - component: {fileID: 20883664}
   m_Layer: 0
   m_Name: HumanBarrack
   m_TagString: Untagged
@@ -58,11 +58,12 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 170686}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: .5, z: 4.31500006}
+  m_LocalPosition: {x: 0, y: 0.5, z: 4.315}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 435678}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &423586
 Transform:
   m_ObjectHideFlags: 1
@@ -75,6 +76,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 435678}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &435678
 Transform:
   m_ObjectHideFlags: 1
@@ -89,6 +91,7 @@ Transform:
   - {fileID: 409478}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &2317144
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -98,20 +101,30 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: 18005472cb60bee49b6764de1650de82, type: 2}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
   m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!33 &3345332
 MeshFilter:
@@ -144,7 +157,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPos: {x: 5, y: 0, z: 5}
-  soldier: {fileID: 101896, guid: b090df5d2ad30477a8efbdd8c297a472, type: 2}
+  soldier:
+  - {fileID: 101896, guid: b090df5d2ad30477a8efbdd8c297a472, type: 2}
+  - {fileID: 101896, guid: 6ae234421357f85449cc78524435c4ef, type: 2}
+  - {fileID: 101896, guid: 6443bf33cd010c84bbb888818e08ce06, type: 2}
+  - {fileID: 162410, guid: 016e7bf62a334b6408f97e97b5e49ec7, type: 2}
+  - {fileID: 100000, guid: 1ca74154cf6c10e4f8262108edf810b3, type: 2}
   soldierPos: {fileID: 409478}
 --- !u!114 &11472408
 MonoBehaviour:
@@ -173,11 +191,11 @@ NavMeshObstacle:
   serializedVersion: 3
   m_Shape: 1
   m_Extents: {x: 3.5, y: 2.5, z: 3.5}
-  m_MoveThreshold: .100000001
+  m_MoveThreshold: 0.1
   m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 2.5, z: 0}
-  m_TimeToStationary: .5
+  m_TimeToStationary: 0.5
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

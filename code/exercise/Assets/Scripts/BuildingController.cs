@@ -4,7 +4,7 @@ using System.Collections;
 
 public class BuildingController : MonoBehaviour {
 
-	public GameObject createSoldier;
+	public GameObject [] createSoldier;
 	public GameObject upLevelMoney;
 	public GameObject upLevelWood;
 
@@ -25,7 +25,11 @@ public class BuildingController : MonoBehaviour {
 		barracks.Add (b);
 		//	如果是第一次添加, 显示创建士兵的按钮
 		if (barracks.Count == 1) {
-			createSoldier.SetActive (true);
+            for(int C =0;C<createSoldier.Length;C++ )
+            {
+                createSoldier[C].SetActive (true);
+            }
+			
 		}
 	}
 
@@ -42,17 +46,45 @@ public class BuildingController : MonoBehaviour {
 		barracks.Remove (b);
 		if (barracks.Count == 0) {
 			//	不显示生产士兵按钮
-			createSoldier.SetActive (false);
+            for(int c = 0; c < createSoldier.Length; c++)
+            {
+			    createSoldier[c].SetActive (false);
+            }
 		}
 	}
 
-	//	生产士兵
-	public void CreateSoldier () {
+	//	生产炮灰
+	public void CreateSoldier0 () {
         
-		(barracks [0] as Barrack).CreateSoldier ();
+		(barracks [0] as Barrack).CreateSoldier (0);
 	}
 
-	public ArrayList buildings;	//	当前地图中所有建筑物
+    //	生产初级士兵
+    public void CreateSoldier1()
+    {
+
+        (barracks[0] as Barrack).CreateSoldier(1);
+    }
+    //	生产二级士兵
+    public void CreateSoldier2()
+    {
+
+        (barracks[0] as Barrack).CreateSoldier(2);
+    }
+    //	生产三级士兵
+    public void CreateSoldier3()
+    {
+
+        (barracks[0] as Barrack).CreateSoldier(3);
+    }
+    //	生产终极兵器
+    public void CreateSoldier4()
+    {
+
+        (barracks[0] as Barrack).CreateSoldier(4);
+    }
+
+    public ArrayList buildings;	//	当前地图中所有建筑物
 
 	void Awake () {
 		//	初始化成员变量
