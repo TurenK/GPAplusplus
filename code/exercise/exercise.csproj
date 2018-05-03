@@ -245,23 +245,21 @@
     <Compile Include="Assets\EasyMainMenu\Scripts\Main Menu Scripts\MainMenuController.cs" />
     <Compile Include="Assets\MainBKFullScrean.cs" />
     <Compile Include="Assets\MainModeFullScream.cs" />
+    <Compile Include="Assets\Move.cs" />
     <Compile Include="Assets\myprocessbar.cs" />
-    <Compile Include="Assets\Script\AbleBuilding.cs" />
-    <Compile Include="Assets\Script\Barracks.cs" />
-    <Compile Include="Assets\Script\Base.cs" />
-    <Compile Include="Assets\Script\Boundary.cs" />
-    <Compile Include="Assets\Script\Building.cs" />
-    <Compile Include="Assets\Script\Bullet.cs" />
-    <Compile Include="Assets\Script\CameraMove.cs" />
-    <Compile Include="Assets\Script\Destroy.cs" />
-    <Compile Include="Assets\Script\DestroyFog.cs" />
-    <Compile Include="Assets\Script\Emeny.cs" />
-    <Compile Include="Assets\Script\FogOfWar.cs" />
-    <Compile Include="Assets\Script\Friendlyforce.cs" />
-    <Compile Include="Assets\Script\FriendlyforcesBuild.cs" />
-    <Compile Include="Assets\Script\friendlyforcesMove.cs" />
-    <Compile Include="Assets\Script\HPSlider.cs" />
-    <Compile Include="Assets\Script\ScreenDraw.cs" />
+    <Compile Include="Assets\Scripts\Barrack.cs" />
+    <Compile Include="Assets\Scripts\BuildButton.cs" />
+    <Compile Include="Assets\Scripts\Building.cs" />
+    <Compile Include="Assets\Scripts\BuildingController.cs" />
+    <Compile Include="Assets\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\Draw.cs" />
+    <Compile Include="Assets\Scripts\Factory.cs" />
+    <Compile Include="Assets\Scripts\GameController.cs" />
+    <Compile Include="Assets\Scripts\Global.cs" />
+    <Compile Include="Assets\Scripts\Grid.cs" />
+    <Compile Include="Assets\Scripts\Keng.cs" />
+    <Compile Include="Assets\Scripts\UIEventController.cs" />
+    <Compile Include="Assets\Scripts\Wood.cs" />
     <Compile Include="Assets\startmoive.cs" />
   </ItemGroup>
   <ItemGroup>

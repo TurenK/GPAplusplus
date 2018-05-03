@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class myprocessbar : MonoBehaviour
 {
@@ -18,13 +19,15 @@ public class myprocessbar : MonoBehaviour
             currentAmount += m_speed * Time.deltaTime;
             // setText.GetComponent<Text>().text = ((int)currentAmount).ToString() + "%";
             //setText.gameObject.SetActive(true);
+            myprogress.GetComponent<Image>().fillAmount = currentAmount / 100;
         }
         else
         {
             // loadingtext.GetComponent<Text>().text = "Done";
             // setText.gameObject.SetActive(false);
+            SceneManager.LoadScene("GameScene");
         }
-        myprogress.GetComponent<Image>().fillAmount = currentAmount / 100;
+       
     }
 
 
