@@ -300,6 +300,10 @@
     <Compile Include="Assets\EasyMainMenu\Scripts\Main Menu Scripts\Editor\MainMenuControllerEditor.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\SD_Character\ReadMe.files\colorschememapping.xml" />
+    <None Include="Assets\SD_Character\ReadMe.files\filelist.xml" />
+    <None Include="Assets\SD_Character\ReadMe.files\item0006.xml" />
+    <None Include="Assets\SD_Character\ReadMe.files\props007.xml" />
     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
