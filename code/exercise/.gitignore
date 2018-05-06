@@ -1,0 +1,11 @@
+#Unity generated
+Temp/
+Library/
+
+#VS genereated
+obj/
+*.userprefs
+
+#OS genereated
+.DS_Store
+Thumbs.db
