@@ -1,0 +1,3 @@
+choye这个 01～03部分为gbgjasn233，其余密码是mthghd419
+文件有些大 建议您到电脑上操作下载解压 
+slmgr /xpr 70d9ceb6-6dfa-4da4-b413-18c1c3c76e2e   
