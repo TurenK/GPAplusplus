@@ -158,10 +158,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetPos: {x: 5, y: 0, z: 5}
   soldier:
-  - {fileID: 101896, guid: b090df5d2ad30477a8efbdd8c297a472, type: 2}
-  - {fileID: 101896, guid: 6ae234421357f85449cc78524435c4ef, type: 2}
+  - {fileID: 1446535677835012, guid: f85c4948bfaac4e48b32c1254bdec6b8, type: 2}
+  - {fileID: 129800, guid: 1d3b1a1513de66247974634911345b98, type: 2}
   - {fileID: 101896, guid: 6443bf33cd010c84bbb888818e08ce06, type: 2}
-  - {fileID: 162410, guid: 016e7bf62a334b6408f97e97b5e49ec7, type: 2}
+  - {fileID: 1300611964618398, guid: f1311e5a115fe03499e4250b7920ee04, type: 2}
   - {fileID: 100000, guid: 1ca74154cf6c10e4f8262108edf810b3, type: 2}
   soldierPos: {fileID: 409478}
 --- !u!114 &11472408

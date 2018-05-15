@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 114013905372199178}
   - component: {fileID: 195061925280171064}
   - component: {fileID: 54266208485739398}
+  - component: {fileID: 136228094947802650}
   m_Layer: 0
   m_Name: Sphere 4
   m_TagString: Untagged
@@ -3175,7 +3176,7 @@ Animation:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 7400008, guid: e156495aa9aa3424d85dac51d5fdbd21, type: 3}
+  m_Animation: {fileID: 7400004, guid: e156495aa9aa3424d85dac51d5fdbd21, type: 3}
   m_Animations:
   - {fileID: 7400002, guid: e156495aa9aa3424d85dac51d5fdbd21, type: 3}
   - {fileID: 7400004, guid: e156495aa9aa3424d85dac51d5fdbd21, type: 3}
@@ -3407,6 +3408,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selected: 0
+--- !u!136 &136228094947802650
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.6
+  m_Height: 4
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!195 &195061925280171064
 NavMeshAgent:
   m_ObjectHideFlags: 1

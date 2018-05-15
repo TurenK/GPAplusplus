@@ -18,11 +18,11 @@ public class Move : MonoBehaviour {
 	}
 
 	void Update () {
-		if (selected) {
-			GetComponent <Renderer> ().material.color = Color.red;
-		} else {
-			GetComponent <Renderer> ().material.color = Color.white;
-		}
+		//if (selected) {
+		//	GetComponent <Renderer> ().material.color = Color.red;
+		//} else {
+		//	GetComponent <Renderer> ().material.color = Color.white;
+		//}
 	}
 
 	void OnMouseUpAsButton () {
