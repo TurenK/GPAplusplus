@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
+# Visual Studio 2017
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity 3D RTS", "Unity 3D RTS.csproj", "{7C72E79B-E43B-4DE1-63DF-B796EDE44FBB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity 3D RTS.Plugins", "Unity 3D RTS.Plugins.csproj", "{3C2E83A0-D5E0-87C7-C943-415BD6B9CF58}"

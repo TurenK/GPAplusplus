@@ -29,7 +29,6 @@ public class BuildingController : MonoBehaviour {
             {
                 createSoldier[C].SetActive (true);
             }
-			
 		}
 	}
 
@@ -55,7 +54,7 @@ public class BuildingController : MonoBehaviour {
 
 	//	生产炮灰
 	public void CreateSoldier0 () {
-        
+
 		(barracks [0] as Barrack).CreateSoldier (0);
 	}
 

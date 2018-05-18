@@ -16,8 +16,10 @@ public class Global : MonoBehaviour {
 	public static int nextLevelWood = 10;
 	public static int factoryCount = 0;
 	public static int money = 500;	//	当前金币数
-	public static int wood = 100;	//	当前木材数
-	public static bool isRemove = false;	//	是否正在拆迁
+	public static int wood = 100;   //	当前木材数
+    public static int AImoney = 500;  //	当前AI金币数
+    public static int AIwood = 100;   //	当前AI木材数
+    public static bool isRemove = false;	//	是否正在拆迁
 	public static int mapWidth = 100;	//	地图宽度
 	public static int mapLength = 100;	//	地图长度
 	public static float gridSize = 0.9f;	//	格子大小
